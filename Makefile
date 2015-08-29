@@ -1,10 +1,10 @@
-COMPILER = clang++
-CFLAGS   = -std=c++11 -ftemplate-depth=512 -Wall -MMD -MP -O3 #-g #-fopenmp
+COMPILER = g++
+CFLAGS   = -std=c++11 -Wall -MMD -MP -O3 #-g #-fopenmp
 LDFLAGS  = $(shell pkg-config --libs opencv) -L/usr/local/lib -lboost_system -lboost_filesystem 
 LIBS     = 
-INCLUDE  = $(shell pkg-config --cflags opencv) #-Iinclude $(shell pkg-config --cflags opencv eigen3)
+INCLUDE  = $(shell pkg-config --cflags opencv) 
 TARGETTEST = test
-TARGET = lt_test
+TARGET = tracking
 OBJDIR   = ./obj
 ifeq "$(strip $(OBJDIR))" ""
 	OBJDIR = .
