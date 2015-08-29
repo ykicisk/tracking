@@ -7,7 +7,7 @@ const cv::Size MAX_DETECT_SIZE = cv::Size(100, 200);
 const int MAX_MISS_FRAME = 10;
 const double MIN_NEW_DETECT_INTERSECTION_RATE = 0.5;
 
-// cv::Trackerのラッパー。現在地と
+// cv::Trackerのラッパー。
 class MyTracker {
 private:
 	static int next_id;
