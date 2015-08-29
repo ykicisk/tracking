@@ -38,5 +38,5 @@ $ ./tracking videodir
 
 ## 動作例
 
-PETS2009 S2.L1 View01 での動作例は![こちら](http://youtu.be/qO6xz-vTko4)。
+PETS2009 S2.L1 View01 での動作例は[こちら](http://youtu.be/qO6xz-vTko4)。
 
